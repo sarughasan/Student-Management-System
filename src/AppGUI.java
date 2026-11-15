@@ -8,7 +8,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/** Swing interface for the file-based Student Management System. */
 public class AppGUI extends JFrame {
     private final StudentFileHandler fileHandler = new StudentFileHandler();
     private List<Student> students = new ArrayList<Student>();
