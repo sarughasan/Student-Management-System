@@ -3,7 +3,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Reads and writes student records in a local CSV file (no database/JDBC). */
 public class StudentFileHandler {
     private final File file;
     private static final String HEADER = "Student_ID,First_Name,Last_Name,Major,Phone,GPA,DOB";
